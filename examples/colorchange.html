@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test javascript</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+    <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="js/boy.js" type="text/javascript"></script>
+</head>
+
+   <style>
+       .test-addclass{
+           color: red;
+       }
+       .test-addclass2{
+           background: black;
+       }
+       img{
+       	  width: 100px;
+       }
+       .appendTo{
+          width: 120px;
+          padding: 5px;
+          height: 120px;
+          background: red;
+       }
+       .left{
+          float: left;
+       }
+       .clear{
+          clear: both;
+       }
+   </style>
+
+<body>
+
+
+<h1>Javascript CSS Change</h1>
+
+        <div id="coloChange" style="background: #000; width: 50px; height: 50px;"></div>
+       <div id="coloChange2" style="background: #000; width: 50px; height: 50px;"></div>
+       
+        <button class="btChange" onclick="boy.changeColor('black','coloChange')">click to change color Black</button>
+        <button class="btChange" onclick="boy.changeColor('red','coloChange')">click to change color to Red</button>
+       <button class="btChange" onclick="boy.changeColor('green','coloChange')">click to change color to Green</button>
+
+        <button class="btChange" onclick="boy.changeColor('black','coloChange2')">click to change color Black</button>
+        <button class="btChange" onclick="boy.changeColor('red','coloChange2')">click to change color to Red</button>
+       <button class="btChange" onclick="boy.changeColor('green','coloChange2')">click to change color to Green</button>
+
+
+  </body>
+
+</html> 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<title>Check Form </title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >	
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+	   <!-- <script src="js/boy/boy.js" type="text/javascript"></script> -->
+	    <link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<script type="text/javascript">	
+
+	$(document).ready(function(){
+$('.form').validate();
+		
+	})
+
+		
+			
+
+
+	
+	</script>
+	<style>
+		.clear{
+			clear: both;
+		}
+		.left{
+			float: left;
+		}
+		label{
+			width: 100px;
+		}
+		select{
+			margin-left: 100px;
+			padding: 5px;
+		}
+		input{
+			padding: 5px;
+			
+		}
+		.focus{
+			border: solid 1px red ;
+		}
+		.required{
+			/*border: solid 1px red;*/
+		}
+	</style>
+
+	<body>
+		
+		
+		<form class="form" name="form" onsubmit="return checkFormValidate();">
+			<select name="gender" class="gender">
+				<option value="">Gender</option>
+				<option value="Mr.">Mr.</option>
+				<option value="Miss.">Miss.</option>
+			</select>
+			<p>
+				<label class="left">Username :</label> 
+				<input type="text" name="username" />
+			</p>
+			<div class="clear"></div>
+			<p>
+				<label class="left">Password : </label>
+				<input type="ttext" name="password" />
+			</p>
+			<div class="clear"></div>
+			<p>
+				<label class="left">First Name : </label> 
+				<input type="ttext" name="password" />
+			</p>
+			<div class="clear"></div>
+			<p>
+				<label class="left">Last name : </label> 
+				<input type="ttext" name="password" />
+			</p>
+			<div class="clear"></div>
+			<p>
+				<label class="left">Email : </label> 
+				<input type="ttext" name="password" />
+			</p>
+			<div class="clear"></div>		
+			<input type="submit" value="Send"/>
+		</form>
+	</body>
+</html>

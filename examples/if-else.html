@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+</head>
+    <script language="javascript">
+
+        CheckGrade = function(){
+            var grade = $('.input').val();
+                if(grade >= 90 ){
+                    alert('This Grade = A')
+                }else if(grade >= 80 ){
+                    alert('This Grade = B')
+                }else if(grade >= 70 ){
+                    alert('This Grade = C')
+                }else if(grade >= 60 ){
+                    alert('This Grade = D')
+                }else if(grade >= 50 ){
+                    alert('This Grade = E')
+                }else if(grade >= 40 ){
+                    alert('This Grade = F')
+                }else{
+                    alert('No Grade for this to bad')
+                }
+            console.log(grade) ;
+        },
+      $(function(){
+        $('.checkG').click(CheckGrade);
+      });
+
+    </script>
+
+<body>
+     <label>Fill Score 1 - 100 </label>
+    <input type="text" name="grade" class="input" />
+    <input type="submit" value="Check" class="checkG">
+
+</body>
+</html>

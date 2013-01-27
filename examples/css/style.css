@@ -1,0 +1,54 @@
+	#NewDiv1{
+		background: red;
+		width: 200px;
+		height: 200px;
+		float: left;
+
+	}
+	#NewDiv2{
+		background: #845754;
+		width: 200px;
+		height: 200px;
+		float: left;
+	}
+	#NewDiv3{
+		background: #542366;
+		width: 200px;
+		height: 200px;
+		float: left;
+	}
+	#NewDiv4{
+		background: #455212;
+		width: 200px;
+		height: 200px;
+		float: left;
+	}
+	#NewDiv5{
+		background: #555561;
+		width: 200px;
+		height: 200px;
+		float: left;
+	}
+
+	.wrapper{
+		width: 500px;
+	}
+
+	li{
+		float: left;
+		list-style: none;
+		margin-left: 1px;
+	}
+   li a{
+		color: #fff;
+		padding: 5px;
+		background: #000;
+		text-decoration: none;
+		border-radius: 10px 10px 0 0;  
+	}
+	.page{
+		margin-left: 41px;
+		margin-top: 5px;
+		background: #000;
+		color: red;
+	}
